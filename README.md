@@ -11,7 +11,8 @@ detect the location of the hand in the video frame. I used the hand landmarks
 module in Mediapipe to extract the 21 key points on the hand, such as fingertips, 
 knuckles, and palm center. <br>
 
-![image](https://github.com/nujrarian/asl-detector-mediapipe/assets/55311409/77cb3987-d224-45f6-b529-4b89f99a062c)
+![image](https://github.com/nujrarian/asl-detector-mediapipe/assets/55311409/eb0269de-b4bb-49c7-86c9-a5de0eea7dbd)
+
 
 I collected a dataset of 5000 hand gesture images corresponding to the 26 letters 
 of the ASL alphabet, with 200 images per letter. I randomly split the dataset into 
