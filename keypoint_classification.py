@@ -1,8 +1,13 @@
 import csv
 
 import numpy as np
-import tensorflow as tf
 from sklearn.model_selection import train_test_split
+
+import tensorflow as tf, string
+MODEL_PATH = "model/classifier.h5"   # ← the .h5 already in the repo
+model = tf.keras.models.load_model(MODEL_PATH)
+CLASS_NAMES = list(string.ascii_uppercase)
+
 
 RANDOM_SEED = 42
 
